@@ -1,0 +1,24 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.row {
+    margin: 0 -5px;
+}
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px 10px;
+}
+.PokeCard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background-color: rgb(175, 180, 167);
+}
+
+.PokeCard-Container {
+    padding: 5px 20px;
+}
+
+.PokeCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
