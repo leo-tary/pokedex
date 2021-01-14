@@ -11,7 +11,7 @@ const App = () => {
     const randomizedTeam = pokemonObj.getRandomizedPokemons(pokemonCharacters);
     const remainingTeam = pokemonObj.getRemainingPokemons(pokemonCharacters , randomizedTeam);
     const championship = pokemonObj.getPokemonWinner(randomizedTeam , remainingTeam);    
-    console.log(championship);
+    // console.log(championship);
     return(
         <div><PokemonGame championshipResult={championship} /></div>
     )
